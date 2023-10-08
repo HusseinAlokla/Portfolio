@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Creative CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding: 20px;
+        display: flex; /* Use flexbox to create a two-column layout */
+      }
+
+      /* Remove float and fixed width for left column */
+      .left-column {
+        background-color: gray;
+        padding-bottom: 105px;
+        padding-top: 1px;
+        flex: 1; /* Let the left column grow to fill available space */
+      }
+
+      /* Adjust padding for right column */
+      .right-column {
+        background-color: cadetblue;
+        padding-left: 20px;
+        padding-bottom: 75px;
+        flex: 2; /* Let the right column grow to fill available space */
+      }
+
+      h1 {
+        background-color: rgb(74, 85, 138);
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: brown;
+      }
+
+      hr {
+        border-top: 2px solid black;
+      }
+
+      li {
+        font-size: large;
+      }
+
+      p {
+        font-size: large;
+      }
+
+      section {
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h3 {
+        font-size: 18px;
+        color: #333;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      ul li {
+        margin-bottom: 10px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .language-bar {
+        height: 20px;
+        background-color: #eee;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      .language-progress {
+        height: 100%;
+        border-radius: 10px;
+      }
+
+      /* Adjust the width of .language-progress to indicate language proficiency */
+      .english-progress {
+        width: 90%;
+        background-color: #9eb605;
+      }
+
+      .arabic-progress {
+        width: 98%;
+        background-color: #8f3e4a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-column">
+        <h1>Hussein Alokla</h1>
+        <img src="images/myphoto.jpg" style="width: 323px" alt="" />
+        <h2>Contact</h2>
+        <hr />
+        <h3>Address:</h3>
+        <p>Residence palace,Hamra,Lebanon</p>
+        <br />
+        <h3>phone:</h3>
+        <pre style="font-size: large">+961 76 671 593</pre>
+        <br />
+        <h2>Languages</h2>
+        <div class="language">
+          <p>English</p>
+          <div class="language-bar">
+            <div class="language-progress english-progress"></div>
+          </div>
+        </div>
+
+        <div class="language">
+          <p>Arabic</p>
+          <div class="language-bar">
+            <div class="language-progress arabic-progress"></div>
+          </div>
+        </div>
+        <h2>Hobbies</h2>
+        <hr style= />
+        <ul>
+          <li>Football</li>
+          <li>Running</li>
+          <li>Weight-lifting</li>
+        </ul>
+        <div class="right-column">
+          <h2 style="padding-top: 30px">Summary</h2>
+          <hr style="border-top: 2px solid rgb(0, 0, 0)" />
+
+          <p>
+            As a dedicated computer science student, I am passionate about
+            solving complex problems through innovative technology solutions.
+            With a strong foundation in programming languages like Python and
+            Java, as well as coursework in data structures, algorithms, and web
+            development, I am well-equipped to contribute to real-world
+            projects. I thrive in collaborative environments and am eager to
+            apply my problem-solving skills and passion for technology to a
+            dynamic team. Seeking opportunities to gain hands-on experience and
+            further develop my skills in software development and computer
+            science
+          </p>
+          <h2>Skill Higlights</h2>
+          <hr style="border-top: 2px solid gray" />
+          <ul>
+            <li>Project Management</li>
+            <li>Strong decision maker</li>
+            <li>Complex problem solver</li>
+            <li>Service focused</li>
+          </ul>
+          <h2>Experience</h2>
+          <hr style="border-top: 2px solid gray" />
+          <p style="font-size: 500; font-weight: bold">Cashier:</p>
+          <p>5/2020 to 9/2020, Turqouise Beach Resort</p>
+          <p style="font-size: 500; font-weight: bold">Private Tutor:</p>
+          <p>2022 to 6/2023, at home</p>
+
+          <h2>Education</h2>
+          <hr style="border-top: 2px solid gray" />
+          <pre style="font-size: large; font-family: Arial">
+Bachelor of Science: Computer Science 2022-present
+Lebanese American University, Leb
+      </pre
+          >
+          <h2>Certifications</h2>
+          <hr style="border-top: 2px solid gray" />
+          <ul>
+            <li>Introduction to python: Datacamp</li>
+            <li>Intermediate python: Datacamp</li>
+            <li>Introduction to Datascience: 365 DataScience</li>
+            <li>Machine learing using naive bayes: 365 DataScience</li>
+            <li>Object Oriented programming: Udemy</li>
+            <li>SQL: Coursera</li>
+            <li>Python for Everybody: Coursera</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
